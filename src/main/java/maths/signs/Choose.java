@@ -8,7 +8,7 @@ import static maths.signs.Multiply.multiply;
 import static maths.signs.Plus.plus;
 
 public class Choose {
-    public static void chose(double num1, double num2) {
+    public static void chose(double num1, double num2) throws Devide.DevideRException {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Выберите действие: +, -, * или / ");
